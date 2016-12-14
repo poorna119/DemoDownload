@@ -42,9 +42,9 @@ s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
 
-s.source_files = "/Users/qbuser/Documents/Libraries/DemoDownload/DemoDownload/Sources/**/*.{swift}"
+s.source_files = "DemoDownload/DemoDownload/Sources/**/*.{swift}"
 
 # 9
 
-s.resources = "/Users/qbuser/Documents/Libraries/DemoDownload/DemoDownload/Sources/Resources/**/*.{png}"
+s.resources = "DemoDownload/DemoDownload/Sources/Resources/**/*.{png}"
 end
