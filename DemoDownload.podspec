@@ -12,7 +12,7 @@ s.version = "0.1.0"
 
 # 3
 
-s.license = { :type => "MIT", :file => "LICENSE" }
+s.license = { :type => "MIT", :file => "DemoDownload/LICENSE" }
 
 # 4 - Replace with your name and e-mail address
 s.author = { "rojil" => "rojil@qburst.com" }
@@ -36,9 +36,9 @@ s.source = { :git => "https://github.com/poorna119/DemoDownload.git", :tag => "#
 
 
 # 7
-s.framework = "UIKit"
-s.dependency 'Alamofire', '~> 2.0'
-s.dependency 'MBProgressHUD', '~> 0.9.0'
+#s.framework = "UIKit"
+#s.dependency 'Alamofire', '~> 2.0'
+#s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
 
