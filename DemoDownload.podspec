@@ -4,6 +4,7 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '8.0'
 s.name = "DemoDownload"
+s.summary = "A short description of DemoDownload."
 s.requires_arc = true
 
 # 2
