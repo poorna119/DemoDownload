@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MV9-Nb-quf" customClass="DownloadButton" customModule="DemoDownload" customModuleProvider="target">
-                                <rect key="frame" x="150" y="311" width="115" height="115"/>
+                                <rect key="frame" x="150" y="310" width="115" height="115"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="115" id="Cpq-aw-AWr"/>
                                     <constraint firstAttribute="height" constant="115" id="VLy-FH-Tzf"/>
