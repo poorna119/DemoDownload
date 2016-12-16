@@ -11,6 +11,7 @@ import UIKit
 class DownloadButton: UIButton {
     
     override func awakeFromNib() {
+        self.tintColor = UIColor.darkGrayColor()
         let bundle = NSBundle(forClass: DownloadButton.self)
         let image = UIImage(named: "1.png", inBundle: bundle, compatibleWithTraitCollection: nil)
         self.setImage((image)! ,  forState: .Normal)
@@ -23,12 +24,14 @@ class DownloadButton: UIButton {
         
     }
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        
         var imageArray = [UIImage]()
         for i in 2...16 {
             let bundle = NSBundle(forClass: DownloadButton.self)
             let image = UIImage(named: "\(i).png", inBundle: bundle, compatibleWithTraitCollection: nil)
             imageArray.append(image!)
         }
+      
         self.imageView!.animationRepeatCount = 1
         self.imageView!.animationImages = imageArray
         self.imageView!.animationDuration = 1.0
