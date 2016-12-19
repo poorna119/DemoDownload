@@ -5,11 +5,9 @@ When the download button is tapped downloading starts. The download stops when t
 #Installation
 To install the Download Button, the user must first import DemoDownload from cocoapods to his/her respective project. Then podfile should be updated. 
 #Tests
-The button that should be used as download button should be given the class DownloadButton. The width and height of the button should be 115 and 115. Create an outlet of the button and call the function downloadFinish using the outlet whenever the user wants to stop the downloading.
+The button that should be used as download button should be given the class DownloadButton. Create an outlet of the button and call the function downloadFinish using the outlet whenever the user wants to stop the downloading.
    @IBOutlet weak var downloadButton: DownloadButton!
    downloadButton.downloadFinish()
-#Notes
-The width and height of the button to be used as download button should be 115 and 115.
 #Developed By
 Poorna Raju.
 #License
