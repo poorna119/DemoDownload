@@ -8,22 +8,22 @@
 
 import UIKit
 
-class DownloadButton: UIButton {
+public class DownloadButton: UIButton {
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         self.tintColor = UIColor.darkGrayColor()
         let bundle = NSBundle(forClass: DownloadButton.self)
         let image = UIImage(named: "1.png", inBundle: bundle, compatibleWithTraitCollection: nil)
         self.setImage((image)! ,  forState: .Normal)
     }
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     override init(frame: CGRect) {
         super.init(frame: frame)
         
     }
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override public func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
         var imageArray = [UIImage]()
         for i in 2...16 {
@@ -53,7 +53,7 @@ class DownloadButton: UIButton {
         self.imageView!.animationDuration = 1.0
         self.imageView!.startAnimating()
     }
-    func downloadFinish()  {
+   public func downloadFinish()  {
         var finishImageArray = [UIImage]()
         for i in 20...37 {
             let bundle = NSBundle(forClass: DownloadButton.self)
