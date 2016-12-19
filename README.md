@@ -8,7 +8,7 @@
         The button that should be used as download button should be given the class DownloadButton. The width and height of the button should be 115 and 115. Create an outlet of the button and call the function downloadFinish using the outlet whenever the user wants to stop the downloading.
         @IBOutlet weak var downloadButton: DownloadButton!
         downloadButton.downloadFinish()
-#Known Bugs
+#Notes
         The width and height of the button to be used as download button should be 115 and 115.
 #Developed By
         Poorna Raju.
