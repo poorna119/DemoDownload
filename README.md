@@ -21,15 +21,17 @@ $ gem install cocoapods
 
 To integrate `DemoDownload` into your Xcode project using CocoaPods, specify it in your Podfile:
 ```ruby
+platform :ios, '8.0'
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '9.0'
 use_frameworks!
-
-target '<Your Target Name>' do
-pod ’SJSegmentedScrollView’, ‘1.3.5'
+target ’Test’ do
+  pod ‘DemoDownload’
 end
 ```
 To install the Download Button, the user must first import DemoDownload from cocoapods to his/her respective project. Then podfile should be updated. 
+```ruby
+import DemoDownload
+```
 #Tests
 The button that should be used as download button should be given the class DownloadButton. Create an outlet of the button and call the function downloadFinish using the outlet whenever the user wants to stop the downloading.
    @IBOutlet weak var downloadButton: DownloadButton!
