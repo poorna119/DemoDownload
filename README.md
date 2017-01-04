@@ -26,7 +26,7 @@ To integrate `DemoDownload` into your Xcode project using CocoaPods, specify it 
 platform :ios, '8.0'
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
-target ’Test’ do
+target '<Your Target Name>' do
   pod ‘DemoDownload’
 end
 ```
