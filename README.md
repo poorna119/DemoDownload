@@ -1,6 +1,8 @@
 #DemoDownload
 DemoDownload is a customized button used for downloading in iOS.
 ![alt tag](https://uimovement.com/media/resource_image/image_2648.gif)
+##Highlights
+-[x] Starts downloading when the button is tapped.
 #Code Example
 When the download button is tapped downloading starts. The download stops when the user calls the function downloadFinish().
 #Installation
