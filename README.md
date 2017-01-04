@@ -1,12 +1,34 @@
-#DemoDownload
+# DemoDownload
+
 DemoDownload is a customized button used for downloading in iOS.
 ![alt tag](https://uimovement.com/media/resource_image/image_2648.gif)
-####Highlights
+
+#### Highlights
 - Starts downloading when the button is tapped.
 - When downloading is completed, the button animation stops.
-#Code Example
+
+# Code Example
 When the download button is tapped downloading starts. The download stops when the user calls the function downloadFinish().
-#Installation
+
+## Installation
+
+### CocoaPods: 
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+To integrate `DemoDownload` into your Xcode project using CocoaPods, specify it in your Podfile:
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+pod ’SJSegmentedScrollView’, ‘1.3.5'
+end
+```
 To install the Download Button, the user must first import DemoDownload from cocoapods to his/her respective project. Then podfile should be updated. 
 #Tests
 The button that should be used as download button should be given the class DownloadButton. Create an outlet of the button and call the function downloadFinish using the outlet whenever the user wants to stop the downloading.
