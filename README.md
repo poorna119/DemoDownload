@@ -1,6 +1,6 @@
 # DemoDownload
 
-DemoDownload is a customized button used for downloading in iOS.
+`DemoDownload` is a customized button used for downloading in iOS.
 ![alt tag](https://uimovement.com/media/resource_image/image_2648.gif)
 
 #### Highlights
@@ -55,11 +55,11 @@ import DemoDownload
 ```
 The button that should be used as download button should be given the class DownloadButton. Create an outlet of the button by holding down the Control key and drag (or right-click-and-drag).
 ```ruby
-   @IBOutlet weak var downloadButton: DownloadButton!
+@IBOutlet weak var downloadButton: DownloadButton!
 ``` 
 Call the function downloadFinish() using the outlet whenever the user wants to stop the downloading.
 ```ruby
-   downloadButton.downloadFinish()
+downloadButton.downloadFinish()
 ```   
 ## Author
 Poorna Raju, poorna119@gmail.com
