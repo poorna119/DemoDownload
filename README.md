@@ -1,24 +1,17 @@
 # DemoDownload
-
 `DemoDownload` is a customized button used for downloading in iOS.
 ![alt tag](https://uimovement.com/media/resource_image/image_2648.gif)
-
 #### Highlights
 - Starts downloading when the button is tapped.
 - When downloading is completed, the button animation stops.
-
 ## Code Example
 When the download button is tapped downloading starts. The download stops when the user calls the function downloadFinish().
-
 ## Installation
-
 ### CocoaPods: 
 [CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
-
 ```bash
 $ gem install cocoapods
 ```
-
 To integrate `DemoDownload` into your Xcode project using CocoaPods, specify it in your Podfile:
 ```ruby
 platform :ios, '8.0'
@@ -29,17 +22,14 @@ target ’Test’ do
 end
 ```
 Then, run the following command:
-
 ```bash
 $ pod install
 ```
-
-
 ## Requirements
-
 - Xcode 7.3+
 - iOS 9.0+
 - Swift 2.3+
+
 
 ## Communication
 
